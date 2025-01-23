@@ -1,0 +1,24 @@
+body{
+    background-image: url('../images/bgImg.jpg');
+    background-size: cover;
+}
+h1 {
+    color: red;
+}
+p{
+    color: red;
+}
+form{
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(58, 57, 56);
+
+
+}
