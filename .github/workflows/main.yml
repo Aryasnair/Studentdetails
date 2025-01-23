@@ -1,0 +1,13 @@
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: sreimers/pr-dependency-action@v1
+        with:
+          name: Aryasnair
+          repo: https://github.com/Aryasnair/Studentdetails.git
+          secret: ${{ secrets.GITHUB_TOKEN }}
